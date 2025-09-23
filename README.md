@@ -75,3 +75,14 @@ Hemos elegido **Bootstrap** como nuestro framework CSS para este proyecto. Esta 
 
 6. **Personalización**: Aunque Bootstrap ofrece un diseño base atractivo, también permite una fácil personalización a través de variables Sass, lo que nos da la flexibilidad de adaptar el aspecto visual al estilo específico de nuestro proyecto.
 
+# Examen Práctico - Tecnologías de Internet
+
+## Framework CSS elegido: Bootstrap
+
+Este proyecto utiliza Bootstrap  como framework CSS principal.
+link página: https://startbootstrap.com/
+link de descarga: https://startbootstrap.com/theme/grayscale
+
+Escala de grises
+Un tema Bootstrap gratuito, multipropósito y de una sola página que presenta un esquema de colores oscuros y animaciones de desplazamiento suaves.
+
