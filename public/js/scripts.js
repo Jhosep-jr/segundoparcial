@@ -62,3 +62,18 @@ if ('serviceWorker' in navigator) {
         });
     });
 }
+
+const requestNotificationPermission = () => {
+    Notification.requestPermission().then(permission => {
+        if (permission === 'granted') {
+            console.log('Permiso concedido');
+        }
+    });
+};
+
+document.getElementById('allow-notifications').addEventListener('click', requestNotificationPermission);
+document.getElementById('test-notification').addEventListener('click', () => {
+    if (Notification.permission === 'granted') {
+        new Notification('¡Hola! Esta es una notificación de prueba.');
+    }
+});
